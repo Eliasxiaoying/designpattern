@@ -1,4 +1,4 @@
-﻿namespace _01_Factory.Before;
+﻿namespace _01_FactoryPattern.Before;
 
 public class ShreddedPorkWithPotatoes : IFood
 {

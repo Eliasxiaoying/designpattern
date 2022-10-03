@@ -1,4 +1,4 @@
-﻿namespace _01_Factory.After
+﻿namespace _01_FactoryPattern.After
 {
     public class FoodFactory
     {

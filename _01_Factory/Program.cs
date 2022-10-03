@@ -1,10 +1,6 @@
-﻿global using System;
-global using System.Collections.Generic;
-global using System.Linq;
-global using System.Text;
-global using System.Threading.Tasks;
+﻿using _01_FactoryPattern.After;
 
-namespace _01_Factory;
+namespace _01_FactoryPattern;
 
 public class Program
 {
@@ -25,7 +21,7 @@ public class Program
         // 系统扩展困难，一旦添加新产品就不得不修改工厂逻辑，这样就会造成工厂逻辑过于复杂。
 
         Console.WriteLine("之后炒菜");
-        After.MakeFood.Make();
+        MakeFood.Make();
         // 应用场景：
         // 当工厂类负责创建的对象比较少时可以考虑使用简单工厂模式
         // 客户如果只知道传入工厂类的参数，对于如何创建对象的逻辑不关心时可以考虑使用简单工厂模式
